@@ -7,7 +7,7 @@ function DesktopNav({ showNav, setShowNav }) {
   return (
     <>
       <nav>
-        <ul className='md:justify-self-start lg:justify-self-auto grid grid-cols-9 justify-items-center items-center font-semibold'>
+        <ul className='md:justify-self-start lg:justify-self-auto grid grid-cols-9 justify-items-center items-center font-semibold max-w-fhd m-auto'>
           <li>
             <button onClick={() => setShowNav(!showNav)}>
               <img src='/assets/img/hamburger.svg'></img>

@@ -16,7 +16,7 @@ export default function Footer({ footerData }) {
   } = footerData
 
   return (
-    <footer>
+    <footer className='flex-1 flex flex-col'>
       <div id='news'>
         <Section>
           <News news={{ newsTitle, news, newsButton }} />
@@ -32,7 +32,7 @@ export default function Footer({ footerData }) {
           <Bottom bottom={{ contactByline, contactHeader, copyright }} />
         </Section>
       </div>
-      <section className='block w-full py-8 px-6 text-white text-center text-base bg-grey'>
+      <section className='block w-full py-8 px-6 text-white text-center text-base bg-grey flex-1'>
         <p className='opacity-50'>Copyright 2021 Bolliger Treuhand AG</p>
         <p className='opacity-50'>All rights reserved</p>
       </section>

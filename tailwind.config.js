@@ -27,7 +27,11 @@ module.exports = {
       '1/2': '50%',
       '3/4': '75%',
       full: '100%',
+      screen: '100vh',
       box: '135px',
+    },
+    maxWidth: {
+      fhd: '1700px',
     },
   },
   variants: {
