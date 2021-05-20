@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+}
+
+@layer components {
+  .sectionTitle {
+    @apply mb-8 py-6 font-semibold text-2xl leading-5 lg:col-start-2 lg:col-span-7;
+  }
+}
